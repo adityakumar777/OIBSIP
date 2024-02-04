@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#828581</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="border_width">0.5dp</dimen>
+    <dimen name="box_size">64dp</dimen>
+    <dimen name="box_size_land">50dp</dimen>
+    <string name="app_name">Fusion Calculator</string>
+    <string name="backspace">Backspace</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_clear">C</string>
+    <string name="button_div"> / </string>
+    <string name="button_dot"> . </string>
+    <string name="button_equals"> = </string>
+    <string name="button_minus"> - </string>
+    <string name="button_mod"> % </string>
+    <string name="button_mul"> x </string>
+    <string name="button_plus"> + </string>
+    <string name="button_pow"> ^ </string>
+    <string name="button_root"> √ </string>
+    <string name="error">Error</string>
+    <style name="Base.Theme.FusionCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="Theme.FusionCalculator" parent="Base.Theme.FusionCalculator"/>
+</resources>
